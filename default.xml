@@ -13,7 +13,7 @@
            fetch="https://github.com/Linuxdork/" />
 
 
-  <remote  name="CyanogenMod"
+  <remote  name="github"
            fetch="https://github.com/"
            review="review.cyanogenmod.org" />
 
@@ -22,7 +22,7 @@
            review="review.cyanogenmod.org" />
 
   <default revision="refs/heads/cm-12.0"
-           remote="CyanogenMod"
+           remote="github"
            sync-c="true"
            sync-j="8" />
 
@@ -566,4 +566,5 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
+  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="muppets" revision="cm-12.0" />
 </manifest>
