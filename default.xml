@@ -574,9 +574,9 @@
   <project name="android_kernel_samsung_klte" path="kernel/samsung/klte" remote="Linuxdork" revision="LD-Lollipop" />
   <project name="android_device_samsung_klte-common" path="device/samsung/klte-common" remote="Linuxdork" revision="LD-Lollipop" />
   
-  <!-- <project name="CyanogenMod/android_device_samsung_kltespr" path="device/samsung/kltespr" remote="github" />
+  <project name="CyanogenMod/android_device_samsung_kltespr" path="device/samsung/kltespr" remote="github" />
   <project name="CyanogenMod/android_device_samsung_msm8974-common" path="device/samsung/msm8974-common" remote="github" />
   <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" />
   <project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" />
-  <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" /> -->
+  <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" />
 </manifest>
