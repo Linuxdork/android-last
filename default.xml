@@ -581,10 +581,11 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp"  />
   <project path="vendor/cm" name="android_vendor_cm" remote="Linuxdork" revision="LD-Lollipop" />
   <!-- <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" /> -->
-  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="muppets" revision="cm-12.0" />
+  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="Linuxdork" revision="cm-12.0" />
   <project name="android_kernel_samsung_klte" path="kernel/samsung/klte" remote="Linuxdork" revision="LD-Lollipop" />
   <project name="android_device_samsung_klte-common" path="device/samsung/klte-common" remote="Linuxdork" revision="LD-Lollipop" />
   
+  <project name="CyanogenMod/android_device_samsung_kltesprsports" path="device/samsung/kltesprsports" remote="Linuxdork" revision="LD-Lollipop" />
   <project name="CyanogenMod/android_device_samsung_kltespr" path="device/samsung/kltespr" remote="github" />
   <project name="CyanogenMod/android_device_samsung_msm8974-common" path="device/samsung/msm8974-common" remote="github" />
   <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" />
